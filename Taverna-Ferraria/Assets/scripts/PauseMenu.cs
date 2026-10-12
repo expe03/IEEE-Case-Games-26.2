@@ -3,47 +3,24 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    [Header("Configurações do Menu")]
-    public GameObject pauseMenuUI;
-    private bool isPaused = false;
-
-    
+    public GameObject container;
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
+            container.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 
-    public void Resume()
+    public void ResumeButton()
     {
-        if (pauseMenuUI != null)
-        {
-            pauseMenuUI.SetActive(false);
-        }
-
-        Time.timeScale = 1f;
-
-        isPaused = false;
+       container.SetActive(false);
+        Time.timeScale = 1;
     }
 
-    void Pause()
+    public void MainMenuButton()
     {
-        if (pauseMenuUI != null)
-        {
-            pauseMenuUI.SetActive(true);
-        }
-
-        Time.timeScale = 0f;
-
-        isPaused = true;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("");
     }
 }
