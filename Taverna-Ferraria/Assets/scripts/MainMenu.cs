@@ -4,7 +4,7 @@ public class MainMenu : MonoBehaviour
 {
    public void StartGame()
    {
-        SceneManager.LoadScene("Scene 1");
+        SceneManager.LoadScene("AreaInicial");
         Time.timeScale = 1;
    }
    public void QuitGame()

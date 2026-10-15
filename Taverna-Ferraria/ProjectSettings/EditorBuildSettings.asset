@@ -12,7 +12,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 896a9a38c1ad01a4caaa6d3ce6a48fc9
   - enabled: 1
-    path: Assets/Scenes/Scene 1.unity
+    path: Assets/Scenes/AreaInicial.unity
     guid: efd389bcd8b45f943af25498cda64cd1
+  - enabled: 1
+    path: Assets/Scenes/Taverna.unity
+    guid: 58dabf5954cc81942a7aa1d299bc3835
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
