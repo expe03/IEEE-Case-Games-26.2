@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usu\u00E1rio\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usu\u00E1rio\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SpawnPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SpawnPlayer.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnPlayer.cs",
+              "RelativeToolTip": "Assets\\scripts\\SpawnPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T20:46:41.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SpawnManager.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T20:53:11.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
