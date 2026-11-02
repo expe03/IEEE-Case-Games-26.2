@@ -26,8 +26,14 @@ MonoBehaviour:
     m_path: Assets/Scenes/Main Menu.unity
     m_guid: 896a9a38c1ad01a4caaa6d3ce6a48fc9
   - m_enabled: 1
-    m_path: Assets/Scenes/Scene 1.unity
+    m_path: Assets/Scenes/desatualizado.unity
     m_guid: efd389bcd8b45f943af25498cda64cd1
+  - m_enabled: 1
+    m_path: Assets/Scenes/Taverna.unity
+    m_guid: 58dabf5954cc81942a7aa1d299bc3835
+  - m_enabled: 1
+    m_path: Assets/Scenes/AreaInicial.unity
+    m_guid: 66260874f8bb1c040995301a38eba326
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
