@@ -25,6 +25,7 @@ public class SoundManager : MonoBehaviour
     public void ChangeVolume()
     {
         AudioListener.volume = volumeSlider.value;
+        Debug.Log("Volume global: " + AudioListener.volume);
         Save();
     }
 

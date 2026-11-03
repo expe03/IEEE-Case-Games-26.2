@@ -5,12 +5,15 @@ public class ColetaItem : MonoBehaviour
     public ItemData item;
     public GameObject promptInteracao;
     public bool coletaUnica = true;
+    public AudioClip somColeta;
+    private AudioSource audioSource;
 
     private bool jogadorPerto;
     private bool jaColetado;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         if (promptInteracao != null)
         {
             promptInteracao.SetActive(false);
@@ -22,6 +25,11 @@ public class ColetaItem : MonoBehaviour
         if (jogadorPerto && !jaColetado && Input.GetKeyDown(KeyCode.E))
         {
             bool coletou = Inventario.Instance.AdicionarItem(item);
+
+            if (coletou && somColeta != null)
+            {
+                AudioSource.PlayClipAtPoint(somColeta, transform.position, 1f);
+            }
 
             if (coletou && coletaUnica)
             {

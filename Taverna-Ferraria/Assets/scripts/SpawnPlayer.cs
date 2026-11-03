@@ -1,8 +1,9 @@
 using UnityEngine;
+using System.Collections;
 
 public class SpawnPlayer : MonoBehaviour
 {
-    void Start()
+    IEnumerator Start()
     {
         string nomeSpawn = GerenciadorSpawn.spawnDesejado;
 
@@ -12,7 +13,14 @@ public class SpawnPlayer : MonoBehaviour
 
         if (ponto != null)
         {
+            // posiciona o jogador no Spawn desejado
             transform.position = ponto.transform.position;
+
+            // aguarda a inicialização dos outros componentes
+            yield return new WaitForFixedUpdate();
+
+            // reinicia o controle dos passos após posicionar o jogador
+            GetComponent<NewMonoBehaviourScript>().ReiniciarPassos();
 
             Debug.Log("Player posicionado em: " + ponto.name);
             Debug.Log("Posição: " + ponto.transform.position);
