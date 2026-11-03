@@ -55,6 +55,23 @@ public class Inventario : MonoBehaviour
         return false;
     }
 
+    public ItemData RemoverItemSelecionado()
+    {
+        ItemData item = slots[slotSelecionado];
+        slots[slotSelecionado] = null;
+        OnInventarioMudou?.Invoke();
+        return item;
+    }
+
+    public bool ReceberNoSlotSelecionado(ItemData item)
+    {
+        if (slots[slotSelecionado] != null) return false;
+
+        slots[slotSelecionado] = item;
+        OnInventarioMudou?.Invoke();
+        return true;
+    }
+
     public void MudarSelecao(int direcao)
     {
         slotSelecionado = (slotSelecionado + direcao + TotalSlots) % TotalSlots;

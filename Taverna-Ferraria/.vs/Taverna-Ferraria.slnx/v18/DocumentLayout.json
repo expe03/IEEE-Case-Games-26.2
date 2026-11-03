@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,6 +34,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\mesanpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mesanpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\barraprogresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\barraprogresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\estadojogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\estadojogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\receitadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\receitadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -42,6 +71,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -94,10 +124,26 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T15:34:20.795Z",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MesaNPC.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\MesaNPC.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MesaNPC.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\MesaNPC.cs",
+              "RelativeToolTip": "Assets\\scripts\\MesaNPC.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T17:59:12.408Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 0,
               "Title": "Inventario.cs",
               "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Inventario.cs",
@@ -120,10 +166,62 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-15T20:46:41.752Z"
+=======
+              "DocumentIndex": 1,
+              "Title": "BarraProgresso.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\BarraProgresso.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\BarraProgresso.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\BarraProgresso.cs",
+              "RelativeToolTip": "Assets\\scripts\\BarraProgresso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T16:10:08.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T15:50:31.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EstadoJogo.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\EstadoJogo.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\EstadoJogo.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\EstadoJogo.cs",
+              "RelativeToolTip": "Assets\\scripts\\EstadoJogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T15:39:09.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Estacao.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Estacao.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Estacao.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Estacao.cs",
+              "RelativeToolTip": "Assets\\scripts\\Estacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T15:15:25.019Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< Updated upstream
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\SpawnManager.cs",
@@ -144,6 +242,30 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-01T14:46:32.059Z"
+=======
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Inventario.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Inventario.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Inventario.cs",
+              "RelativeToolTip": "Assets\\scripts\\Inventario.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T15:08:38.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReceitaData.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ReceitaData.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ReceitaData.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ReceitaData.cs",
+              "RelativeToolTip": "Assets\\scripts\\ReceitaData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T14:46:22.841Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }
