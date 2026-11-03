@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    // define a velocidade que o player vai ter
     public float moveSpeed = 5f;
 
     // cria uma gaveta para guardar o componente de física do player
@@ -29,7 +28,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     void Start()
     {
-        // o GetComponent busca o componente de física do player e guarda na variável rb
         rb = GetComponent<Rigidbody2D>();
 
         // registra a posição inicial do player
@@ -47,9 +45,15 @@ public class NewMonoBehaviourScript : MonoBehaviour
         audioSource.Stop();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        // Player travado (usando uma estação): não lê as teclas
+        if (EstadoJogo.PlayerTravado)
+        {
+            movementInput = Vector2.zero;
+            return;
+        }
+
         // Pega o valor horizontal (A/D ou Setas Esquerda/Direita) e retorna -1, 0 ou 1
         movementInput.x = Input.GetAxisRaw("Horizontal");
 
@@ -62,7 +66,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Move a posição atual do Rigidbody somando a direção multiplicada pela velocidade e pelo tempo entre frames
         rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
 
         // Ignora a movimentação inicial depois de trocar de área
