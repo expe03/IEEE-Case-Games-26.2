@@ -3,12 +3,6 @@ using UnityEngine;
 public class NewMonoBehaviourScript : MonoBehaviour
 {
     public float moveSpeed = 5f;
-<<<<<<< Updated upstream
-    // cria uma gaveta para guardar o componente de física do player
-    private Rigidbody2D rb;
-    // guarda os valores dos eixos x e y que o jogador está pressionando
-    private Vector2 movementInput;
-=======
     private Rigidbody2D rb;
 
     private Vector2 movementInput;
@@ -24,12 +18,9 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private bool aguardandoPosicionamento = false;
 
->>>>>>> Stashed changes
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-<<<<<<< Updated upstream
-=======
 
         ultimaPosicao = rb.position;
     }
@@ -41,7 +32,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
         aguardandoPosicionamento = true;
 
         audioSource.Stop();
->>>>>>> Stashed changes
     }
 
     void Update()
@@ -55,16 +45,17 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         // Pega o valor horizontal (A/D ou Setas Esquerda/Direita) e retorna -1, 0 ou 1
         movementInput.x = Input.GetAxisRaw("Horizontal");
+
         // Pega o valor vertical (W/S ou Setas Cima/Baixo) e retorna -1, 0 ou 1
         movementInput.y = Input.GetAxisRaw("Vertical");
+
         // Normaliza o vetor de movimento para que a velocidade seja constante em todas as direções
         movementInput = movementInput.normalized;
     }
+
     void FixedUpdate()
     {
         rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
-<<<<<<< Updated upstream
-=======
 
         if (aguardandoPosicionamento)
         {
@@ -93,6 +84,5 @@ public class NewMonoBehaviourScript : MonoBehaviour
             // desconta a distância utilizada
             distanciaAcumulada -= distanciaEntrePassos;
         }
->>>>>>> Stashed changes
     }
 }

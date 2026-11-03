@@ -71,11 +71,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-<<<<<<< Updated upstream
               "DocumentIndex": 1,
               "Title": "ColetaItem.cs",
               "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ColetaItem.cs",
@@ -85,7 +85,50 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-02T21:37:25.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemSegurado.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ItemSegurado.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ItemSegurado.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ItemSegurado.cs",
+              "RelativeToolTip": "Assets\\scripts\\ItemSegurado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-02T20:54:47.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotbarUI.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\HotbarUI.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\HotbarUI.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\HotbarUI.cs",
+              "RelativeToolTip": "Assets\\scripts\\HotbarUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T15:52:49.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SlotUI.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SlotUI.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SlotUI.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SlotUI.cs",
+              "RelativeToolTip": "Assets\\scripts\\SlotUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T15:34:20.795Z",
 =======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MesaNPC.cs",
               "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\MesaNPC.cs",
@@ -101,15 +144,28 @@
             {
               "$type": "Document",
 <<<<<<< Updated upstream
-              "DocumentIndex": 2,
-              "Title": "ItemSegurado.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ItemSegurado.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\ItemSegurado.cs",
-              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ItemSegurado.cs",
-              "RelativeToolTip": "Assets\\scripts\\ItemSegurado.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Inventario.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Inventario.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Inventario.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Inventario.cs",
+              "RelativeToolTip": "Assets\\scripts\\Inventario.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-02T20:54:47.947Z",
+              "WhenOpened": "2026-11-01T15:13:04.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SpawnPlayer.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SpawnPlayer.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnPlayer.cs",
+              "RelativeToolTip": "Assets\\scripts\\SpawnPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T20:46:41.752Z"
 =======
               "DocumentIndex": 1,
               "Title": "BarraProgresso.cs",
@@ -160,10 +216,33 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T15:15:25.019Z",
               "EditorCaption": ""
+>>>>>>> Stashed changes
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< Updated upstream
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\SpawnManager.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-15T20:53:11.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemData.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ItemData.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ItemData.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ItemData.cs",
+              "RelativeToolTip": "Assets\\scripts\\ItemData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T14:46:32.059Z"
+=======
               "Title": "Inventario.cs",
               "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Inventario.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Inventario.cs",
@@ -185,83 +264,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-03T14:46:22.841Z",
+              "EditorCaption": ""
 >>>>>>> Stashed changes
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HotbarUI.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\HotbarUI.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\HotbarUI.cs",
-              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\HotbarUI.cs",
-              "RelativeToolTip": "Assets\\scripts\\HotbarUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T15:52:49.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SlotUI.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SlotUI.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\SlotUI.cs",
-              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SlotUI.cs",
-              "RelativeToolTip": "Assets\\scripts\\SlotUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T15:34:20.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Inventario.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Inventario.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Inventario.cs",
-              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Inventario.cs",
-              "RelativeToolTip": "Assets\\scripts\\Inventario.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T15:13:04.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SpawnPlayer.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\SpawnPlayer.cs",
-              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnPlayer.cs",
-              "RelativeToolTip": "Assets\\scripts\\SpawnPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T20:46:41.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\SpawnManager.cs",
-              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\scripts\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-15T20:53:11.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ItemData.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ItemData.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\ItemData.cs",
-              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\ItemData.cs",
-              "RelativeToolTip": "Assets\\scripts\\ItemData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-01T14:46:32.059Z"
             }
           ]
         }
