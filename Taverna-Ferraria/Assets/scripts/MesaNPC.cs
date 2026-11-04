@@ -13,6 +13,10 @@ public class MesaNPC : MonoBehaviour
     public GameObject mensagemConclusao;
     public float tempoMensagem = 4f;
 
+    [Header("Som")]
+    public AudioSource audioSource;
+    public AudioClip somEntrega;
+
     private bool jogadorPerto;
     private bool entregue;
 
@@ -57,6 +61,11 @@ public class MesaNPC : MonoBehaviour
         {
             itemNaMesa.sprite = itemPedido.icone;
             itemNaMesa.enabled = true;
+        }
+
+        if (audioSource != null && somEntrega != null)
+        {
+            audioSource.PlayOneShot(somEntrega);
         }
 
         if (mensagemConclusao != null)

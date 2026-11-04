@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\mesanpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mesanpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\estacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MesaNPC.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\MesaNPC.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MesaNPC.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\MesaNPC.cs",
+              "RelativeToolTip": "Assets\\scripts\\MesaNPC.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAADwv0AAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T12:59:48.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PlayerMovement.cs",
@@ -30,12 +51,11 @@
               "RelativeToolTip": "Assets\\scripts\\PlayerMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T02:25:47.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T02:25:47.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SpawnPlayer.cs",
               "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\SpawnPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\SpawnPlayer.cs",
@@ -43,7 +63,19 @@
               "RelativeToolTip": "Assets\\scripts\\SpawnPlayer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T02:24:27.017Z",
+              "WhenOpened": "2026-11-03T02:24:27.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Estacao.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Estacao.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Estacao.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\Estacao.cs",
+              "RelativeToolTip": "Assets\\scripts\\Estacao.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAA9wIcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-04T12:48:51.306Z",
               "EditorCaption": ""
             }
           ]

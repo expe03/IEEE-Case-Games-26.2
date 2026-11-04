@@ -12,6 +12,10 @@ public class Estacao : MonoBehaviour
     [Header("Visual dos itens")]
     public SpriteRenderer[] visuaisDosItens;
 
+    [Header("Sons")]
+    public AudioSource audioSource;
+    public AudioClip somProcessamento;
+
     private List<ItemData> itensNaEstacao = new List<ItemData>();
     private bool jogadorPerto;
     private bool processando;
@@ -106,6 +110,12 @@ public class Estacao : MonoBehaviour
         receitaAtual = receita;
         progresso = 0f;
 
+        if (audioSource != null && somProcessamento != null)
+        {
+            audioSource.clip = somProcessamento;
+            audioSource.Play();
+        }
+
         if (receita.prendePlayer)
         {
             EstadoJogo.PlayerTravado = true;
@@ -119,6 +129,10 @@ public class Estacao : MonoBehaviour
             tempo += Time.deltaTime;
             progresso = tempo / receita.duracao;
             yield return null;
+        }
+        if (audioSource != null)
+        {
+            audioSource.Stop();
         }
 
         itensNaEstacao.Clear();
