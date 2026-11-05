@@ -12,6 +12,11 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    public void Creditos()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     public void QuitGame()
     {
         Application.Quit();

@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 896a9a38c1ad01a4caaa6d3ce6a48fc9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/desatualizado.unity
     guid: efd389bcd8b45f943af25498cda64cd1
   - enabled: 1
@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Moedor de Trigo.unity
     guid: e5aee51fd1bfa134187dad7f80fb4dc0
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 6b7dcc8b7ee0942448533cc41e32cd7b
   - enabled: 1
     path: Assets/Scenes/AreaInicial.unity
     guid: 66260874f8bb1c040995301a38eba326
