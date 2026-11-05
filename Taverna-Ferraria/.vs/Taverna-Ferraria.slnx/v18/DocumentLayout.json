@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\CameraSegue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\CameraSegue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\cameraseguehorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameraseguehorizontal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\unity projects\\ieee case\\ieee-case-games-26.2\\taverna-ferraria\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,19 +44,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CameraSegueHorizontal.cs",
-              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\CameraSegueHorizontal.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\CameraSegueHorizontal.cs",
-              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\CameraSegueHorizontal.cs",
-              "RelativeToolTip": "Assets\\scripts\\CameraSegueHorizontal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T00:47:11.758Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -131,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\PauseMenu.cs",
@@ -140,6 +127,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-05T01:12:42.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CameraSegue.cs",
+              "DocumentMoniker": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\CameraSegue.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\CameraSegue.cs",
+              "ToolTip": "E:\\Unity Projects\\IEEE Case\\IEEE-Case-Games-26.2\\Taverna-Ferraria\\Assets\\scripts\\CameraSegue.cs",
+              "RelativeToolTip": "Assets\\scripts\\CameraSegue.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T23:11:39.125Z",
               "EditorCaption": ""
             }
           ]

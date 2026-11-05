@@ -1638,12 +1638,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3b723a9544bd4648a9853a091a52351, type: 3}
+  m_Script: {fileID: 11500000, guid: 1481daac3bf5ff948b83ae79d4d94660, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CameraSegueHorizontal
+  m_EditorClassIdentifier: Assembly-CSharp::CameraSegue
   alvo: {fileID: 0}
   fundo: {fileID: 485389499}
-  ajustarAlturaAoFundo: 0
+  seguirHorizontal: 1
+  seguirVertical: 0
+  limiteMin: {x: -10, y: -5}
+  limiteMax: {x: 10, y: 5}
 --- !u!1 &572205628
 GameObject:
   m_ObjectHideFlags: 0
