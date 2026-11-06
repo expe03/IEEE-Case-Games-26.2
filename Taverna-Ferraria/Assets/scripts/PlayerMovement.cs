@@ -26,9 +26,21 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // impede que os passos sejam contabilizados durante a troca de área
     private bool aguardandoPosicionamento = false;
 
+    // controle das animações
+    private Animator animator;
+    private bool olhandoDireita = true;
+    private string animacaoAtual = "";
+
+    // sprites parados (idle), um para cada lado
+    public Sprite idleDireita;
+    public Sprite idleEsquerda;
+    private SpriteRenderer sr;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
 
         // registra a posição inicial do player
         ultimaPosicao = rb.position;
@@ -51,6 +63,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (EstadoJogo.PlayerTravado)
         {
             movementInput = Vector2.zero;
+            AtualizarAnimacao();
             return;
         }
 
@@ -62,6 +75,40 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
         // Normaliza o vetor de movimento para que a velocidade seja constante em todas as direções
         movementInput = movementInput.normalized;
+
+        AtualizarAnimacao();
+    }
+
+    // Escolhe qual animação tocar: andando ou parado, olhando para a esquerda ou para a direita
+    void AtualizarAnimacao()
+    {
+        if (animator == null || sr == null) return;
+
+        // Só muda o lado quando há movimento horizontal; andando para cima ou para baixo, mantém o último lado
+        if (movementInput.x > 0) olhandoDireita = true;
+        else if (movementInput.x < 0) olhandoDireita = false;
+
+        bool andando = movementInput != Vector2.zero;
+
+        if (andando)
+        {
+            string novaAnimacao = olhandoDireita ? "Walk_Right" : "Walk_Left";
+
+            // religa o Animator se ele estava desligado e só troca de animação quando muda
+            if (!animator.enabled || novaAnimacao != animacaoAtual)
+            {
+                animator.enabled = true;
+                animator.Play(novaAnimacao);
+                animacaoAtual = novaAnimacao;
+            }
+        }
+        else
+        {
+            // parado: desliga o Animator e mostra o sprite parado do lado certo
+            animator.enabled = false;
+            sr.sprite = olhandoDireita ? idleDireita : idleEsquerda;
+            animacaoAtual = "";
+        }
     }
 
     void FixedUpdate()
