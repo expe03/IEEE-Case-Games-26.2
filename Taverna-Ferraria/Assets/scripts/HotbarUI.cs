@@ -4,6 +4,17 @@ public class HotbarUI : MonoBehaviour
 {
     public SlotUI slotPrefab;
     private SlotUI[] slots;
+    private CanvasGroup grupo;
+
+    void Awake()
+    {
+        grupo = GetComponent<CanvasGroup>();
+
+        if (grupo == null)
+        {
+            grupo = gameObject.AddComponent<CanvasGroup>();
+        }
+    }
 
     void Start()
     {
@@ -16,6 +27,12 @@ public class HotbarUI : MonoBehaviour
 
         Inventario.Instance.OnInventarioMudou += Atualizar;
         Atualizar();
+    }
+
+    // A hotbar fica invisível enquanto o jogo está pausado
+    void Update()
+    {
+        grupo.alpha = EstadoJogo.Pausado ? 0f : 1f;
     }
 
     void OnDestroy()

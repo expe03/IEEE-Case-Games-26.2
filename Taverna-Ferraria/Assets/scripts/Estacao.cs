@@ -40,6 +40,12 @@ public class Estacao : MonoBehaviour
 
     void Update()
     {
+        if (promptInteracao != null)
+        {
+            promptInteracao.SetActive(jogadorPerto && !EstadoJogo.Pausado);
+        }
+
+        if (EstadoJogo.Pausado) return;
         // Enquanto processa, a estação não aceita nada
         if (!jogadorPerto || processando) return;
 

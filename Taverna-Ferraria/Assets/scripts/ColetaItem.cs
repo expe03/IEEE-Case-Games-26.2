@@ -22,6 +22,12 @@ public class ColetaItem : MonoBehaviour
 
     void Update()
     {
+        if (promptInteracao != null)
+        {
+            promptInteracao.SetActive(jogadorPerto && !jaColetado && !EstadoJogo.Pausado);
+        }
+
+        if (EstadoJogo.Pausado) return;
         if (jogadorPerto && !jaColetado && Input.GetKeyDown(KeyCode.E))
         {
             bool coletou = Inventario.Instance.AdicionarItem(item);

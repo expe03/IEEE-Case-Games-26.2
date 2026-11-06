@@ -14,6 +14,12 @@ public class Interacao : MonoBehaviour
 
     void Update()
     {
+        if (promptInteracao != null)
+        {
+            promptInteracao.SetActive(jogadorPerto && !EstadoJogo.Pausado);
+        }
+
+        if (EstadoJogo.Pausado) return;
         if (jogadorPerto && Input.GetKeyDown(KeyCode.E))
         {
             GerenciadorSpawn.spawnDesejado = nomeSpawn;

@@ -7,35 +7,21 @@ public class TutorialUI : MonoBehaviour
     public GameObject caixa;
     public TMP_Text textoDialogo;
 
-    void Start()
-    {
-        if (TutorialManager.Instance == null)
-        {
-            caixa.SetActive(false);
-            return;
-        }
-
-        TutorialManager.Instance.OnPassoMudou += Atualizar;
-        Atualizar();
-    }
-
-    void OnDestroy()
-    {
-        if (TutorialManager.Instance != null)
-        {
-            TutorialManager.Instance.OnPassoMudou -= Atualizar;
-        }
-    }
-
-    void Atualizar()
+    void Update()
     {
         TutorialManager tutorial = TutorialManager.Instance;
 
-        bool mostrar = tutorial != null && tutorial.DeveMostrar(SceneManager.GetActiveScene().name);
+        // A caixa só aparece se o tutorial deve mostrar nesta cena e o jogo não está pausado
+        bool mostrar = tutorial != null
+                       && tutorial.DeveMostrar(SceneManager.GetActiveScene().name)
+                       && Time.timeScale > 0f;
 
-        caixa.SetActive(mostrar);
+        if (caixa.activeSelf != mostrar)
+        {
+            caixa.SetActive(mostrar);
+        }
 
-        if (mostrar)
+        if (mostrar && textoDialogo.text != tutorial.TextoAtual)
         {
             textoDialogo.text = tutorial.TextoAtual;
         }

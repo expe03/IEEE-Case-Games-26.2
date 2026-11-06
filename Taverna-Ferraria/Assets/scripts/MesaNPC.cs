@@ -36,6 +36,12 @@ public class MesaNPC : MonoBehaviour
 
     void Update()
     {
+        if (promptInteracao != null)
+        {
+            promptInteracao.SetActive(jogadorPerto && !entregue && !EstadoJogo.Pausado);
+        }
+
+        if (EstadoJogo.Pausado) return;
         if (!jogadorPerto || entregue) return;
 
         if (Input.GetKeyDown(KeyCode.E))

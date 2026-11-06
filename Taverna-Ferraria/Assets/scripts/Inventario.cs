@@ -50,6 +50,7 @@ public class Inventario : MonoBehaviour
 
     void Update()
     {
+        if (EstadoJogo.Pausado) return;
         float scroll = Input.mouseScrollDelta.y;
 
         if (scroll > 0) MudarSelecao(-1);
