@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Trigo
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   nomeItem: Trigo
-  icone: {fileID: 3625043607559282579, guid: b455e519878863849afd3174c77d5ea5, type: 3}
+  icone: {fileID: 6421834641586501884, guid: 307d422adcb1f9942b8f707dad0257d0, type: 3}

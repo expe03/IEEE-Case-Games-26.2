@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Farinha
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   nomeItem: Farinha
-  icone: {fileID: 7482667652216324306, guid: 8c7ffcca424136345be93b808519ad0c, type: 3}
+  icone: {fileID: -737334324243275561, guid: 2c699e97dd6397945bdec0747d5607fa, type: 3}

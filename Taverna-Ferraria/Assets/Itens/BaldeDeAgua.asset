@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: BaldeDeAgua
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   nomeItem: BaldeDeAgua
-  icone: {fileID: -2413806693520163455, guid: e6aeb25ec70cba144bcc774113090f4a, type: 3}
+  icone: {fileID: 8509116788647382136, guid: c80b452fe9fe3b14e894afdd55292e56, type: 3}
