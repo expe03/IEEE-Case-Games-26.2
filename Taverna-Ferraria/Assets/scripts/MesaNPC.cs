@@ -53,6 +53,7 @@ public class MesaNPC : MonoBehaviour
     void Concluir()
     {
         entregue = true;
+        EstadoJogo.PedidoEntregue = true;
 
         if (promptInteracao != null) promptInteracao.SetActive(false);
         if (balaoPedido != null) balaoPedido.enabled = false;

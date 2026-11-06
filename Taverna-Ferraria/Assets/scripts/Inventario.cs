@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Inventario : MonoBehaviour
 {
@@ -25,6 +26,26 @@ public class Inventario : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+        SceneManager.sceneLoaded += AoCarregarCena;
+    }
+
+    void OnDestroy()
+    {
+        SceneManager.sceneLoaded -= AoCarregarCena;
+
+        if (Instance == this)
+        {
+            Instance = null;
+        }
+    }
+
+    // Voltou ao menu principal: o próximo jogo começa com o inventário vazio
+    void AoCarregarCena(Scene cena, LoadSceneMode modo)
+    {
+        if (cena.name == "Main Menu")
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Update()
@@ -47,6 +68,7 @@ public class Inventario : MonoBehaviour
             if (slots[i] == null)
             {
                 slots[i] = item;
+                EstadoJogo.RegistrarItem(item);
                 OnInventarioMudou?.Invoke();
                 return true;
             }

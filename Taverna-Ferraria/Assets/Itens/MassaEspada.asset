@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MassaEspada
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   nomeItem: MassaEspada
-  icone: {fileID: -9095717837082945937, guid: 0ddc9db1cd9a54f4abd1ec19e32da34f, type: 3}
+  icone: {fileID: 4508084162978555865, guid: 488027054a4ec14419ef2a4d6f538f6a, type: 3}

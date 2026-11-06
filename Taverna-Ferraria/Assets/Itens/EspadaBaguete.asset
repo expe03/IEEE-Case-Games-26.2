@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: EspadaBaguete
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   nomeItem: EspadaBaguete
-  icone: {fileID: -2135585597343286014, guid: 3d4b61db8f0577c499db4c31a20504d2, type: 3}
+  icone: {fileID: 1632971489751556416, guid: 85e1676c96f30f846919be4e7d880c69, type: 3}

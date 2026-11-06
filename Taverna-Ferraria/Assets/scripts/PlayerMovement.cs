@@ -31,6 +31,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private bool olhandoDireita = true;
     private string animacaoAtual = "";
 
+    public bool OlhandoDireita => olhandoDireita;
+
     // sprites parados (idle), um para cada lado
     public Sprite idleDireita;
     public Sprite idleEsquerda;

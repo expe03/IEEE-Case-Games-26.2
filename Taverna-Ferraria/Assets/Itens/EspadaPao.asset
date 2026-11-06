@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: EspadaPao
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
   nomeItem: EspadaPao
-  icone: {fileID: -712631045867808456, guid: f312107f2b3a4db46963655bc62aaf2b, type: 3}
+  icone: {fileID: 9141156321047488103, guid: 78474cf625d88b84eb32362566f401f0, type: 3}

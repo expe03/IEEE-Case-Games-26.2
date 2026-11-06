@@ -137,6 +137,7 @@ public class Estacao : MonoBehaviour
 
         itensNaEstacao.Clear();
         itensNaEstacao.Add(receita.resultado);
+        EstadoJogo.RegistrarItem(receita.resultado);
         AtualizarVisual();
 
         LiberarPlayer();
