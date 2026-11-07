@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7253870801419316767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4719818798361336270}
+  - component: {fileID: 8320565535601394659}
+  m_Layer: 0
+  m_Name: TutorialManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4719818798361336270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7253870801419316767}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 570.78516, y: 672.84344, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8320565535601394659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7253870801419316767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 447a2d821e065614db12923521fb4809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TutorialManager
+  passos:
+  - texto: "Bem-vindo! V\xE1 at\xE9 o po\xE7o e pegue um balde de \xE1gua. Depois pegue trigo em uma das planta\xE7\xF5es."
+    cenaOndeAparece: AreaInicial
+    condicao: 0
+    itens:
+    - {fileID: 11400000, guid: fba0edca6790250428a02f4053e88027, type: 2}
+    - {fileID: 11400000, guid: 7353034516ef60440a64509fa35ad734, type: 2}
+    nomeCena: 
+    duracao: 0
+  - texto: Muito bem! Agora siga o caminho pela direita e entre na Taverna.
+    cenaOndeAparece: AreaInicial
+    condicao: 1
+    itens: []
+    nomeCena: Taverna
+    duracao: 0
+  - texto: "V\xE1 at\xE9 o moedor, coloque o trigo nele apertando E e clique com o bot\xE3o esquerdo do mouse para fazer farinha."
+    cenaOndeAparece: Taverna
+    condicao: 0
+    itens:
+    - {fileID: 11400000, guid: a320e964ebd734a42bd8150958e3ab28, type: 2}
+    nomeCena: 
+    duracao: 0
+  - texto: "Agora fa\xE7a o mesmo na t\xE1bua: coloque a farinha e o balde de \xE1gua nela com E e clique com o bot\xE3o esquerdo."
+    cenaOndeAparece: Taverna
+    condicao: 0
+    itens:
+    - {fileID: 11400000, guid: e0434ef3380073448a771f9721b0541a, type: 2}
+    nomeCena: 
+    duracao: 0
+  - texto: "Interaja com a t\xE1bua de novo, com a massa nela, para dar o formato de uma espada."
+    cenaOndeAparece: Taverna
+    condicao: 0
+    itens:
+    - {fileID: 11400000, guid: 639c7a27e0d4aeb4d82fb50904a9c63e, type: 2}
+    nomeCena: 
+    duracao: 0
+  - texto: Agora asse a massa no forno.
+    cenaOndeAparece: Taverna
+    condicao: 0
+    itens:
+    - {fileID: 11400000, guid: dbf1586d1f5a5b246bdbdd3217494737, type: 2}
+    nomeCena: 
+    duracao: 0
+  - texto: "Quase l\xE1! Encante a espada no caldeir\xE3o m\xE1gico."
+    cenaOndeAparece: Taverna
+    condicao: 0
+    itens:
+    - {fileID: 11400000, guid: d939b2acdfb710f468cd2d0ea23a98fb, type: 2}
+    nomeCena: 
+    duracao: 0
+  - texto: Perfeito! Agora entregue a espada na mesa.
+    cenaOndeAparece: Taverna
+    condicao: 2
+    itens: []
+    nomeCena: 
+    duracao: 0
+  - texto: "Parab\xE9ns, voc\xEA terminou o tutorial!"
+    cenaOndeAparece: Taverna
+    condicao: 3
+    itens: []
+    nomeCena: 
+    duracao: 5
