@@ -3268,7 +3268,7 @@ MonoBehaviour:
   balaoPedido: {fileID: 1086587971}
   itemNaMesa: {fileID: 1446041184}
   promptInteracao: {fileID: 542661738}
-  mensagemConclusao: {fileID: 221451425}
+  mensagemConclusao: {fileID: 0}
   tempoMensagem: 4
   audioSource: {fileID: 1514965360}
   somEntrega: {fileID: 8300000, guid: 68b25dda3b4d16e449534d686bb1b583, type: 3}

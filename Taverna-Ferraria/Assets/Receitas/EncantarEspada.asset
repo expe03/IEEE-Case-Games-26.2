@@ -16,6 +16,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dbf1586d1f5a5b246bdbdd3217494737, type: 2}
   resultado: {fileID: 11400000, guid: d939b2acdfb710f468cd2d0ea23a98fb, type: 2}
   duracao: 1
-  prendePlayer: 1
+  prendePlayer: 0
   mostraBarra: 1
   iniciaAutomatico: 1
